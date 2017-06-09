@@ -1,0 +1,22 @@
+{
+  "name": "node-ts-starter",
+  "version": "1.0.0",
+  "description": "starter node in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isebmo/node-ts-starter.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "isebmo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isebmo/node-ts-starter/issues"
+  },
+  "homepage": "https://github.com/isebmo/node-ts-starter#readme"
+}
