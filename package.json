@@ -7,7 +7,8 @@
     "serve": "node dist/app.js",
     "build-ts": "tsc",
     "watch-ts": "tsc -w",
-    "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\"  \"npm run watch-ts\" \"nodemon dist/app.js\""
+    "watch": "npm run copy-public && concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\"  \"npm run watch-ts\" \"nodemon dist/app.js\" ",
+    "copy-public": "cp -r src/app/public dist/"
   },
   "repository": {
     "type": "git",
